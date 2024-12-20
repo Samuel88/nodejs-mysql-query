@@ -2,9 +2,9 @@ const mysql = require('mysql2');
 
 const connection = mysql.createConnection({
     host: 'localhost',
-    user: 'laravel',
-    password: 'laravel',
-    database: 'laravel2',
+    user: 'test',
+    password: 'test',
+    database: 'test',
 });
 
 connection.connect((error) => {
